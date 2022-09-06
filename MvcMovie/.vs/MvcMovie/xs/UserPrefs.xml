@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{085F6002-470D-483E-9A33-8BC0C8FEDC04}|Default">
+  <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../aspDocker/Dockerfile">
+    <Files>
+      <File FileName="Controllers/MoviesController.cs" Line="1" Column="1" />
+      <File FileName="Models/Movie.cs" Line="34" Column="2" />
+      <File FileName="Views/Movies/Index.cshtml" Line="56" Column="21" />
+      <File FileName="../../aspDocker/Dockerfile" Line="14" Column="43" />
+      <File FileName="../../dotnet-docker/build-and-test.ps1" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="6" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvcMovie" expanded="True">
+            <Node name="MvcMovie" expanded="True">
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
