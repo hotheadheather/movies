@@ -1127,3 +1127,15 @@
 /Users/hotheadheather/GitHub/movies/MvcMovie/obj/Debug/net6.0/MvcMovie.pdb
 /Users/hotheadheather/GitHub/movies/MvcMovie/obj/Debug/net6.0/MvcMovie.genruntimeconfig.cache
 /Users/hotheadheather/GitHub/movies/MvcMovie/obj/Debug/net6.0/ref/MvcMovie.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Google.Protobuf.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/MySql.Data.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Ubiety.Dns.Core.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Zstandard.Net.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/MySql.Data.EntityFrameworkCore.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Renci.SshNet.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/SshNet.Security.Cryptography.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/System.Xml.XPath.XmlDocument.dll

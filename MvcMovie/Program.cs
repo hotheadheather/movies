@@ -11,6 +11,10 @@ builder.Services.AddDbContext<MvcMovieContext>(options =>
 
 
 
+
+
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -41,6 +45,20 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+/*
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<MvcMovieContext> ();
+    if (context.Database.GetPendingMigrations().Any())
+    {
+        context.Database.Migrate();
+    }
+}
+*/
 
 
 app.Run();

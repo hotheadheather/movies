@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>{B11B422A-CD8D-4738-915F-C499FBAE9555}</ProjectGuid>
+    <ProjectGuid>{9E7F10CC-0614-4FFA-AC7E-AF2153E34F8A}</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>mvcmovie</DockerServiceName>

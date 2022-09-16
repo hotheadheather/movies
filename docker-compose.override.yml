@@ -8,6 +8,7 @@ services:
     ports:
       - "80"
       - "443"
+      - "5050"
     volumes:
       - ~/.aspnet/https:/root/.aspnet/https:ro
       - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
