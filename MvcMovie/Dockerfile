@@ -2,8 +2,14 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
+
+#copy database from directory and insert into docker
+COPY MvcMovie/MvcMovie.db .
 EXPOSE 80
-EXPOSE 443
+#EXPOSE 443
+
+ENV LC_ALL=en_US.UTF-8 \
+    LANG=en_US.UTF-8
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 RUN dotnet tool install -g dotnet-ef
@@ -18,7 +24,6 @@ RUN dotnet build "MvcMovie.csproj" -c Release -o /app/build
 
 #reverts migrations
 RUN dotnet ef database update 0
-
 
 RUN dotnet ef migrations remove
 

@@ -1,5 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.DataProtection;
+using Microsoft.CodeAnalysis.Differencing;
+using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
+using StackExchange.Redis;
 
 public class Startup
 {
@@ -11,11 +14,11 @@ public class Startup
 
     public IConfiguration Configuration { get; }
     public IWebHostEnvironment Environment { get; }
+ 
 
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddControllersWithViews();
-
+      
         services.AddDbContext<MvcMovieContext>(options =>
         {
             var connectionString = Configuration.GetConnectionString("MvcMovieContext");
@@ -32,16 +35,8 @@ public class Startup
     }
 
 
-
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-
-      /*  using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
-        {
-            var context = serviceScope.ServiceProvider.GetRequiredService<MvcMovieContext>();
-            context.Database.Migrate();
-        }
-      */
 
         if (env.IsDevelopment())
         {
@@ -50,10 +45,8 @@ public class Startup
         else
         {
             app.UseExceptionHandler("/Home/Error");
-            app.UseHsts();
+           // app.UseHsts();
         }
-
-      
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
@@ -68,9 +61,5 @@ public class Startup
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
         });
-
     }
 }
-
-
-

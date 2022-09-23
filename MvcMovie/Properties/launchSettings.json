@@ -11,7 +11,7 @@
     "MvcMovie": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7213;http://localhost:5228",
+      "applicationUrl": "http://localhost:26274",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -1139,3 +1139,15 @@
 /Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Renci.SshNet.dll
 /Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/SshNet.Security.Cryptography.dll
 /Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/System.Xml.XPath.XmlDocument.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Microsoft.AspNetCore.DataProtection.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/Pipelines.Sockets.Unofficial.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/StackExchange.Redis.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/System.Diagnostics.PerformanceCounter.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/System.Security.Cryptography.Pkcs.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/System.Security.Cryptography.Xml.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll
+/Users/hotheadheather/GitHub/movies/MvcMovie/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll
